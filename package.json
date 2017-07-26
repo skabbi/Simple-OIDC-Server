@@ -1,0 +1,27 @@
+{
+  "name": "simple-oidc-server",
+  "version": "1.0.0",
+  "description": "Simple OIDC Server using Google credentials",
+  "main": "oidc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skabbi/Simple-OIDC-Server.git"
+  },
+  "keywords": [
+    "oidc"
+  ],
+  "author": "Skabbi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skabbi/Simple-OIDC-Server/issues"
+  },
+  "homepage": "https://github.com/skabbi/Simple-OIDC-Server#readme",
+  "dependencies": {
+    "client-sessions": "^0.7.0",
+    "openid-client": "^1.6.0",
+    "restify": "^4.3.0"
+  }
+}
