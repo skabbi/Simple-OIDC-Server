@@ -8,8 +8,8 @@ Issuer.discover('https://accounts.google.com') // => Promise
   .then((googleIssuer) => {
     console.log('Discovered issuer Google');
     client = new googleIssuer.Client({
-      client_id: '860899668378-isi37q0la889l98oesqaoakblb3k9dtd.apps.googleusercontent.com',
-      client_secret: '2JL2IBXYJCwX3zIYrbJp8z0y',
+      client_id: '<id>',
+      client_secret: '<secret>',
     });
   });
 
